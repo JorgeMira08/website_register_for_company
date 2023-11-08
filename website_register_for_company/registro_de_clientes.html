@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/control_de_prestamos_style.css">
+    <link rel="shortcut icon" href="img/icon_usuario.png">
+    <title>Registro de clientes</title>
+</head>
+<body>
+    <header>
+        <div class="colspan">
+            <div class="row">
+                <h1>FONAVIT</h1>
+                <h2>Registro de clientes</h2>
+            </div>
+            <div class="row">
+                <img src="img/icon_usuario.png" alt="icon_usuario" id="img_icon">
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="registro_de_empleados.html">Registro de empleados</a></li>
+                <li><a href="registro_de_clientes.html">Registro de clientes</a></li>
+                <li><a href="registro_de_transacciones.html">Registro de transacciones</a></li>
+                <li><a href="control_de_prestamos.html">Control de prestamos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="div-1">
+        <form action="post">
+            <label for="codigo"><h3>Nombre Completo:</h3></label>
+            <input class="input" type="text">
+
+            <label for="documento"><h3>N° de cuenta:</h3></label>
+            <input class="input" type="number">
+
+            <label for="codigo"><h3>DUI</h3></label>
+            <input class="input" type="number">
+
+            <label for="codigo"><h3>Fecha de nacimiento:</h3></label>
+            <input class="input" type="date">
+
+            <label for="codigo"><h3>Edad</h3></label>
+            <input class="input" type="number">
+
+            <label for="codigo"><h3>Direccion</h3></label>
+            <input class="input" type="number">
+
+            <label for="codigo"><h3>Estado familiar</h3></label>
+
+            <select class="input" name="estadoFamiliar" id="select">
+                <option value="Soltero">Soltero</option>
+                <option value="Casado">Casado</option>
+                <option value="Acompañado">Acompañado</option>
+                <option value="Toyota">Toyota</option>
+            </select>
+
+            <label for="codigo"><h3>Beneficiario</h3></label>
+            <input class="input" type="text">
+
+            <br><br>
+            <button class="btn" id="btnsubmit" type="submit">Enviar</button>
+            <button class="btn" id="btnreset" type="reset">Cancelar</button>
+        </form>
+    </div>
+    
+</body>
+</html>
